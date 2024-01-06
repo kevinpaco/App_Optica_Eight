@@ -1,0 +1,263 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{4BA4625F-9551-4DD0-8A31-2EB1EC281472}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Vistas</RootNamespace>
+    <AssemblyName>Vistas</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\lpoo1\tp4\click_once\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>5A3D8CB731343B7762A31A887B7C9B645563DBB9</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>Vistas_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>true</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AltaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaCliente.Designer.cs">
+      <DependentUpon>AltaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltaObraSocial.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaObraSocial.Designer.cs">
+      <DependentUpon>AltaObraSocial.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltaProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaProducto.Designer.cs">
+      <DependentUpon>AltaProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="AltaUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="AltaUsuario.Designer.cs">
+      <DependentUpon>AltaUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormBuscarCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormBuscarCliente.Designer.cs">
+      <DependentUpon>FormBuscarCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFiltrarVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFiltrarVenta.Designer.cs">
+      <DependentUpon>FormFiltrarVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormFiltroProducto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormFiltroProducto.Designer.cs">
+      <DependentUpon>FormFiltroProducto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="formLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="formLogin.Designer.cs">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormMain.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormMain.Designer.cs">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormObraSocialAfiliados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormObraSocialAfiliados.Designer.cs">
+      <DependentUpon>FormObraSocialAfiliados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormProductosVendidosByCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormProductosVendidosByCliente.Designer.cs">
+      <DependentUpon>FormProductosVendidosByCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVenta.Designer.cs">
+      <DependentUpon>FormVenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="FormVerVentas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FormVerVentas.Designer.cs">
+      <DependentUpon>FormVerVentas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="AltaCliente.resx">
+      <DependentUpon>AltaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltaObraSocial.resx">
+      <DependentUpon>AltaObraSocial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltaProducto.resx">
+      <DependentUpon>AltaProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="AltaUsuario.resx">
+      <DependentUpon>AltaUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormBuscarCliente.resx">
+      <DependentUpon>FormBuscarCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFiltrarVenta.resx">
+      <DependentUpon>FormFiltrarVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormFiltroProducto.resx">
+      <DependentUpon>FormFiltroProducto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="formLogin.resx">
+      <DependentUpon>formLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormMain.resx">
+      <DependentUpon>FormMain.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormObraSocialAfiliados.resx">
+      <DependentUpon>FormObraSocialAfiliados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormProductosVendidosByCliente.resx">
+      <DependentUpon>FormProductosVendidosByCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVenta.resx">
+      <DependentUpon>FormVenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="FormVerVentas.resx">
+      <DependentUpon>FormVerVentas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="app.config" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <None Include="Vistas_TemporaryKey.pfx" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ClasesBase\ClasesBase.csproj">
+      <Project>{8EDAA2F9-551C-4180-8755-96BF66F08EA7}</Project>
+      <Name>ClasesBase</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <WCFMetadata Include="Service References\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\UserIcon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\IconLock.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.3.1">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 3.1</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
